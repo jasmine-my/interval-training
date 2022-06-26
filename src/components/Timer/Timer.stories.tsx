@@ -4,7 +4,7 @@ import React from 'react';
 import Timer, { ITimerProps } from '~/components/Timer/Timer';
 
 export default {
-    title: 'lds/Timer',
+    title: 'app/Timer',
     component: Timer,
     parameters: {
         layout: 'fullscreen',
