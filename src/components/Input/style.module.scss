@@ -1,0 +1,12 @@
+@import 'src/global_styles/globalFonts';
+
+.title {
+  @include font('Body1','var(--Basic-Black-1)');
+  margin-right: 8px;
+}
+.input {
+  @include font('Body2','var(--Basic-Grey-1)');
+  border: 2px solid var(--Primary-Purple-1);
+  border-radius: 5px;
+  padding: 6px;
+}
