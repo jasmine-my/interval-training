@@ -1,7 +1,7 @@
 import React, { useCallback, useRef } from 'react';
 import ReactCanvasConfetti from 'react-canvas-confetti';
 
-interface IConfettiProps {
+export interface IConfettiProps {
     /** 버튼 타이틀 */
     title?: string;
 }
